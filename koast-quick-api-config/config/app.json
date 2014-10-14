@@ -14,5 +14,6 @@
     "db": "koast-example",
     "schemas": "./server/schemas.js",
     "handle": "_"
-  }]
+  }],
+  "someConfig": "import:./test.json"
 }
