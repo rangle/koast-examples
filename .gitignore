@@ -23,7 +23,10 @@ build/Release
 # Commenting this out is preferred by some people, see
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules
+<<<<<<< HEAD
 bower_components
+=======
+>>>>>>> ac12c9357de906aed8f4f87496a354844fe0df30
 
 # Users Environment Variables
 .lock-wscript
