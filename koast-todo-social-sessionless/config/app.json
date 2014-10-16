@@ -1,0 +1,48 @@
+{
+  "app": {
+    "indexHtml": "path:../client/index.html",
+    "portNumber": 8080,
+    "routes": [{
+      "route": "/api/v1",
+      "type": "module",
+      "module": "server/lib/tasks"
+    }, {
+      "route": "/app",
+      "type": "static",
+      "path": "path:../client/app"
+    }, {
+      "route": "/css",
+      "type": "static",
+      "path": "path:../client/css"
+    }, {
+      "route": "/bower_components",
+      "type": "static",
+      "path": "path:../client/bower_components"
+    }]
+
+  },
+  "databases": [{
+    "host": "127.0.0.1",
+    "port": "27017",
+    "db": "koast-to-do-applicationx",
+    "schemas": "./server/schemas.js",
+    "handle": "_"
+  }],
+  "authentication": {
+    "strategy": "social",
+    "maintenance": "token",
+    "clientReturnUrl": "http://localhost:8081"
+  },
+  "secrets": {
+    "cookieSecret": "thingsareawsome",
+    "authTokenSecret": "thingsareawsome"
+  },
+  "oauth": {
+    "facebook": {
+      "clientID": "867127513331976",
+      "clientSecret": "ef475d72dfdbcce9712ccccaaa8deb7b",
+      "callbackURL": "http://localhost:8080/auth/facebook/callback"
+    }
+  }
+
+}

@@ -1,0 +1,14 @@
+{
+  "name": "koast-todo",
+  "version": "1.0.0",
+  "description": "simple to-do application with koast",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koast": "^0.4.3-rc.3"
+  }
+}
