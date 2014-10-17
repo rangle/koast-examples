@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "koast": "^0.4.3-rc.3"
+    "koast": "^0.4.3-rc.5"
   }
 }

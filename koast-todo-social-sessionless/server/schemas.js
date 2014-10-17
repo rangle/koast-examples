@@ -49,10 +49,6 @@ exports.schemas = [{
     description: {
       type: String,
       required: true
-    },
-    done: {
-      type: Boolean,
-      required: true
     }
   }
 }];
