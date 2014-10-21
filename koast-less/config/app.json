@@ -1,0 +1,16 @@
+{
+  "app": {
+    "portNumber": 3000,
+    "indexHtml": "path:../client/index.html",
+    "lessPaths": [
+      ["css", "client/less"]
+    ],
+    "routes": [{
+
+      "route": "/css",
+      "type": "static",
+      "path": "client/less"
+
+    }]
+  }
+}
