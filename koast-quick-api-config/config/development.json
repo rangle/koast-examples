@@ -1,0 +1,7 @@
+{
+  "app": {
+    "indexHtml": "path:../client/development_index.html",
+    "portNumber": 8080
+
+  }
+}

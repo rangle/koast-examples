@@ -1,0 +1,6 @@
+{
+  "app": {
+    "indexHtml": "path:../client/production_index.html",
+    "portNumber": 8090
+  }
+}
