@@ -1,1 +1,9 @@
-{"name":"koast-less","version":"0.0.0","dependencies":{"koast-angular":"latest","angular-ui":"latest","angular-ui-router":"latest"}}
+{
+  "name": "koast-less",
+  "version": "0.0.0",
+  "dependencies": {
+    "koast-angular": "latest",
+    "angular-ui": "latest",
+    "angular-ui-router": "latest"
+  }
+}

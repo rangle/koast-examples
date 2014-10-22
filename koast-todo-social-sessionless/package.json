@@ -1,14 +1,12 @@
 {
-  "name": "koast-todo",
-  "version": "1.0.0",
-  "description": "simple to-do application with koast",
-  "main": "server/app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "koast-todo-social-sessionless",
+  "version": "0.0.0",
+  "description": "A koast app",
   "dependencies": {
-    "koast": "^0.4.3-rc.5"
+    "koast": "0.4.x"
+  },
+  "main": "./server/app.js",
+  "scripts": {
+    "start": "node server/app.js"
   }
 }

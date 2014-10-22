@@ -1,15 +1,12 @@
 {
   "name": "koast-quick-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "description": "A koast app",
   "dependencies": {
-    "koast": "^0.4.3-rc.5"
+    "koast": "0.4.x"
   },
-  "devDependencies": {},
+  "main": "./server/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "start": "node server/app.js"
+  }
 }
