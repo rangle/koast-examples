@@ -22,6 +22,7 @@ var appSettings = {
   }]
 };
 koast.configure({
-  appConfiguration: appSettings
+  appConfiguration: appSettings,
+  force: true
 });
 koast.serve();

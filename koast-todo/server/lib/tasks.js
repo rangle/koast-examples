@@ -17,7 +17,7 @@ function isOwner(data, req) {
   }
 }
 
-function annotator(req, item, res) {
+function annotator(item, req) {
   item.data.fullTitle = item.data.owner + ':' + item.data.description;
   item.meta.can = {
     edit: isOwner(item.data, req)
