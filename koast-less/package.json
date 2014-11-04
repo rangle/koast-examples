@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "A koast app",
   "dependencies": {
-    "koast": "0.4.x"
+    "koast": "0.5.x"
   },
   "main": "./server/app.js",
   "scripts": {
