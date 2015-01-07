@@ -1,8 +1,12 @@
 {
   "app": {
     "indexHtml": "path:../client/index.html",
-    "portNumber": 8080,
+    "portNumber": 3000,
     "routes": [{
+      "route": "/admin",
+      "type": "module",
+      "module": "server/lib/admin"
+    }, {
       "route": "/api/v1",
       "type": "module",
       "module": "server/lib/tasks"
