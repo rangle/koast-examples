@@ -8,7 +8,7 @@ angular.module('erg', [
 .run(function ($log, koast) {
 
   koast.init({
-    baseUrl: 'http://localhost:8080'
+    baseUrl: 'http://localhost:3000'
   });
   koast.setApiUriPrefix('/api/v1/');
   koast.addEndpoint('tasks-plus', ':taskId', {

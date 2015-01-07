@@ -2,7 +2,7 @@
 /*global angular, _*/
 angular.module('erg.server', [])
 
-.constant('API_BASE_URL', 'http://localhost:8080')
+.constant('API_BASE_URL', 'http://localhost:3000')
 
 .factory('server', function ($http, API_BASE_URL) {
   var service = {};
