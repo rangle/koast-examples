@@ -1,0 +1,13 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.16.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - koast > less-middleware > less > mime:
+        patched: '2020-07-18T21:22:16.188Z'
+  'npm:ms:20151024':
+    - koast > koast-db-utils > mongoose > ms:
+        patched: '2020-07-18T21:22:16.188Z'
+    - koast > mongo-mapper > koast-db-utils > mongoose > ms:
+        patched: '2020-07-18T21:22:16.188Z'
