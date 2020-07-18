@@ -3,10 +3,14 @@
   "version": "0.0.0",
   "description": "A koast app",
   "dependencies": {
-    "koast": "0.5.x"
+    "koast": "0.5.x",
+    "snyk": "^1.362.1"
   },
   "main": "./server/app.js",
   "scripts": {
-    "start": "node server/app.js"
-  }
+    "start": "node server/app.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
